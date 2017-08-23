@@ -1,0 +1,37 @@
+Alert,Diagnosis,Recommendation,Diagram,Color
+RDS: Application performance is degraded,Excessive memory usage suspected on g4tulhlp01,Provisioning additional cloud server,MWP5,yellow
+RDS: Unable to connect to DB,DB listener not accepting connections -  incident probability 80% (ETTI: 3 hrs),"Healthcheck initiated on  DB server g8houhlp23, alert send to oncall DBE",transparent,red
+RDS: DB response slow,DB server h0atlhlp43 ejected from cluster,Alert sent to oncall Unix engineer and DB engineer,transparent,yellow
+RDS: Excessive TCP retransmits,Possible network bottleneck - incident probability 50% (ETTI: 4 hrs),"Healthcheck initiated on switch g9tulsw01, alert sent to oncall NE",transparent,red
+RDS: Intermittent access to g9aushlp05,Hard drive experiencing temporary errors,Contact oncall UNIX engineer,transparent,yellow
+RDS: Unable to connect to g1aushlp06,Server swap space exhausted - incident probability 70% (ETTI: 1 hr),Contact oncall UNIX engineer,transparent,red
+RDS: Multiple applications experiencing slow response,Unknown - incident probability 80% (ETTI: NA),Initiate waroom investigation,transparent,red
+RDS: Application slow to response,Excessive CPU utilization on cluster h9cluwnt08,VM migration initicated,transparent,yellow
+RDS: Excessive ticket count for EOL application,Unknown - incident probability 80% (ETTI: 2 hrs),Alert send to oncall EOL support,transparent,red
+RDS: Multiple servers reporting disk errors,Probable SAN problem - major incident probability 90% (ETTI: 0.5 hrs),Notify oncall SAN support ASAP,MWP2,red
+RDS: Execessive TCP listen drops on switch g7housw56,Probable intrusion activity,Notity cybersecurity ASAP,transparent,yellow
+RDS: Application performance is degraded,Excessive memory usage suspected on g4tulhlp01,Provisioning additional cloud server,transparent,yellow
+RDS: Unable to connect to DB,DB listener not accepting connections -  incident probability 80% (ETTI: 0.25 hrs),"Healthcheck initiated on  DB server g8houhlp23, alert send to oncall DBE",transparent,red
+RDS: DB response slow,DB server h0atlhlp43 ejected from cluster,Alert sent to oncall Unix engineer and DB engineer,transparent,yellow
+RDS: Excessive TCP retransmits,Possible network bottleneck - incident probability 50% (ETTI: 6 hrs),"Healthcheck initiated on switch g9tulsw01, alert sent to oncall NE",transparent,red
+RDS: Unable to connect to DB,DB listener not accepting connections -  incident probability 80% (ETTI: 0.25 hrs),"Healthcheck initiated on  DB server g8houhlp23, alert send to oncall DBE",transparent,red
+RDS: Intermittent access to g9aushlp05,Hard drive experiencing temporary errors,Contact oncall UNIX engineer,transparent,yellow
+RDS: Unable to connect to g1aushlp06,Server swap space exhausted - incident probability 70% (ETTI: 1 hr),Contact oncall UNIX engineer,transparent,red
+BMSQ: Multiple applications experiencing slow response,Unknown - incident probability 80% (ETTI: NA),Initiate waroom investigation,transparent,red
+BMSQ: Application slow to response,Excessive CPU utilization on cluster h9cluwnt08,VM migration initicated,transparent,yellow
+BMSQ: Excessive ticket count for EOL application,Unknown - incident probability 80% (ETTI:  2hrs),Alert sent to oncall EOL support,transparent,red
+BMSQ: Multiple servers reporting disk errors,Probable SAN problem - major incident probability 90% (ETTI: 0.5 hrs),Notify oncall SAN support ASAP,transparent,red
+BMSQ: Execessive TCP listen drops on switch g7housw56,Probable intrusion activity,Notity cybersecurity ASAP,MWP3,yellow
+BMSQ: Application performance is degraded,Excessive memory usage suspected on g4tulhlp01,Provisioning additional cloud server,transparent,yellow
+BMSQ: Unable to connect to DB,DB listener not accepting connections -  incident probability 80% (ETTI: 0.25 hrs),"Healthcheck initiated on  DB server g8houhlp23, alert sent to oncall DBE",transparent,red
+BMSQ: DB response slow,DB server h0atlhlp43 ejected from cluster,Alert sent to oncall Unix engineer and DB engineer,transparent,yellow
+BMSQ: Excessive TCP retransmits,Possible network bottleneck - incident probability 50% (ETTI: 4 hrs),"Healthcheck initiated on switch g9tulsw01, alert sent to oncall NE",MWP1,red
+MONDELEZ: Multiple applications experiencing slow response,Unknown - incident probability 80% (ETTI: 0.5 hrs),"Initiate waroom #39, notification sent to support groups (AHOD)",transparent,red
+MONDELEZ: Application slow to response,Excessive CPU utilization on cluster h9cluwnt08,"VM migration, support groups notified",transparent,yellow
+MONDELEZ: Excessive ticket count for EOL application,Unknown - incident probability 80% (ETTI: 3 hrs),Alert sent to oncall EOL support,transparent,red
+MONDELEZ: Multiple servers reporting disk errors,Probable SAN problem - major incident probability 90% (ETTI: 1 hr),Notify oncall SAN support ASAP,transparent,red
+MONDELEZ: Execessive TCP listen drops on switch g7housw56,Probable intrusion activity,Notity cybersecurity ASAP,transparent,yellow
+MONDELEZ: Application performance is degraded,Excessive memory usage suspected on g4tulhlp01,Provisioning additional cloud server,transparent,yellow
+MONDELEZ: Unable to connect to DB,DB listener not accepting connections -  incident probability 80% (ETTI: 0.25 hrs),"Healthcheck initiated on  DB server g8houhlp23, alert send to oncall DBE",transparent,red
+MONDELEZ: DB response slow,DB server h0atlhlp43 ejected from cluster,Alert sent to oncall Unix engineer and DB engineer,transparent,yellow
+MONDELEZ: Excessive TCP retransmits,Possible network bottleneck - incident probability 50% (ETTI: NA),"Healthcheck initiated on switch g9tulsw01, alert sent to oncall NE",transparent,red
